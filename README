@@ -1,0 +1,46 @@
+constant::private, version 0.01 (beta)
+
+This module creates constants in the manner of constant.pm, but
+deletes them when the enclosing scope finishes compiling.
+
+
+INSTALLATION
+
+The easiest way to install this module is to use the CPAN module or
+the cpan script:
+
+    [sudo] perl -MCPAN -e "install constant::private"
+
+    [sudo] cpan constant::private
+
+Or you can use the following:
+
+    perl Makefile.PL
+    make
+    make test
+    [sudo] make install
+
+
+DEPENDENCIES
+
+This module requires perl 5.8.0 or later and the Sub::Delete module.
+
+
+DOCUMENTATION
+
+After installing, you can find documentation for these modules with
+the perldoc command.
+
+    perldoc constant::private
+
+Or try using man (it's faster, in my experience):
+
+    man constant::private
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2008 Father Chrysostomos
+
+This program is free software; you may redistribute it, modify it, or
+both, under the same terms as perl.
