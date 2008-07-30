@@ -1,7 +1,10 @@
-constant::private, version 0.01 (beta)
+constant::private, version 0.02
 
 This module creates constants in the manner of constant.pm, but
 deletes them when the enclosing scope finishes compiling.
+
+THIS MODULE HAS BEEN DEPRECATED and renamed to constant::lexical,
+which you should use instead.
 
 
 INSTALLATION
